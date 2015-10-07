@@ -4,7 +4,9 @@
 var React = require('react');
 
 var Main = React.createClass({
-    render: function(){
+    //this renders Home or whatever route has been determined by Route
+
+        render: function(){
         return (
             <div className="main-container">
                 <nav className="navbar navbar-default" role="navigation">
